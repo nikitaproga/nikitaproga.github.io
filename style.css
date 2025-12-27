@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    height: 72px;
+    display: flex;
+    align-items: center;
+    padding: 0 20%;
+    justify-content: space-between;
+}
+
+header a{
+    margin-right: 25px;
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+
+.PETS{
+    font-size: 45px;
+
+}
+
+header{
+    background-color: #609637;
+}
+
+.start{
+    background: linear-gradient(to bottom, #D8FF8F, #609637);
+}
+
+.reccomendations{
+    background: linear-gradient(to bottom, #609637, #D8FF8F);
+}
+
+.images{
+    background: linear-gradient(to bottom, #D8FF8F, #609637);
+}
+
+main{
+    background-color: #609637;
+}
+
+.support{
+    background: linear-gradient(to bottom, #609637, #D8FF8F);
+}
+
+body{
+    background-color: #D8FF8F
+}
+
+footer{
+    background-color: #D8FF8F
+}
+
+.start>img{
+    width: 1100px;
+    position: relative;
+    left: 350px
+}
+
+.start>*{
+    display: flex;
+    justify-content: center;
+}
+
+.start>h2{
+    color: white;
+    font-size: 45px;
+    margin: 5px 0
+}
+
+.start>p{
+    color: white;
+    font-size: 30px;
+    margin: 1px 0
+}
+
+.reccomendations>img{
+    width: 400px;
+    position: relative;
+    left: 750px;
+    bottom: 100px
+}
+.reccomendations>*{
+    display: flex;
+    justify-content: center; 
+}
+
+.reccomendations>h2{
+    color: white;
+    font-size: 45px;
+    padding: 20px 0
+}
+
+.reccomendations>p{
+    font-size: 35px;
+    position: relative;
+    bottom: 100px
+}
+
+.support>img{
+    width: 400px;
+    position: relative;
+    left: 750px;
+    bottom: 50px  
+}
+
+.support>h2{
+    color: black;
+    font-size: 45px;
+    position: relative;
+    padding: 10px 0;
+    bottom: 50px 
+}
+.support {
+    position: relative;
+    top: -40px;
+
+}
+
+.support>p{
+    font-size: 20px;
+    bottom: 10px
+}
+
+.support>*{
+    display: flex;
+    justify-content: center; 
+}
+
+.images>h2{
+    color: black;
+    font-size: 45px;
+    position: relative;
+    bottom: 50px;
+    margin: 100px;
+}
+
+.images {
+    margin: -100px 0 0 0;
+}
+.images>*{
+    display:flex;
+    justify-content: center;
+    margin: 10px
+}
+.images>img{
+    width: 400px;
+    position: relative;
+    display: inline;
+    padding: 0px 200px;
+    top: -100px;
+    left: 150px
+}
+
